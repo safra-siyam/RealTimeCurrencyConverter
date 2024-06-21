@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4075d5;
+    font-family:'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.container {
+    background-color: #bed1ea;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #2c3e50; 
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 10px; 
+    /* background: linear-gradient(90deg, rgba(46, 204, 113, 1) 0%, rgba(52, 152, 219, 1) 100%);  */
+    /* border-radius: 10px;  */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+
+#coinSticker {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#userValue {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.selecterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+select {
+    width: calc(50% - 1rem);
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    appearance: none;
+}
+
+#switchCurrency {
+    background-color: #6c8ca8;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#status {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+#btn {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #ffffff; 
+    background: linear-gradient(90deg, rgb(16, 119, 77) 0%, rgba(46, 204, 113, 1) 100%); /* Use a gradient background */
+    border:#035338;
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background 0.3s, transform 0.3s; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    outline:#40d57e;  */
+    margin-top: 20px; 
+}
+
+/* Hover effect */
+#btn:hover {
+    background: linear-gradient(90deg, rgba(46, 204, 113, 1) 0%, rgba(52, 152, 219, 1) 100%); 
+    transform: scale(1.05); 
+}
+
+/* Active effect */
+#btn:active {
+    background: linear-gradient(90deg, rgba(46, 204, 113, 1) 0%, rgba(52, 152, 219, 1) 100%); 
+    transform: scale(0.95); 
+
+}
+
+#result {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+/* css for font awesome */
+
+#switchCurrency {
+    background-color: #425c8c;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#switchCurrency i {
+    font-size: 1rem; 
+}
+
+#switchCurrency:hover {
+    background-color: #061188;
+}
+
+
+
+
+
